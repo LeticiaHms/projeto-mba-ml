@@ -1,0 +1,18 @@
+- Criei conta no github
+- Baixei o git
+- git clone URL (ter no local da máquina)
+- Abrir o projeto com cd
+- git branch para trocar do main para develop (os trabalhos são feitos em branchs diferentes, nunca comittar no main... fazer apenas um merge no final) – comando para saber qual branch ta
+- git checkout -b <nome_branch> (cria a branch e te joga dentro dela)
+- code . (entrar dentro do vs code)
+- Criei um arquivo dentro do vs code e dei um git status para mostrar os arquivos que está sendo modificado.
+- instalar python, ver se já está instalado dando python –version
+- criar maquina virtual python -m venv <nome da venv> (nome padrão é .venv)
+- entrar na maquina virtual e ativar ela - .venv\Scripts\activate
+- pip install todas as bibliotecas - !pip install pandas seaborn matplotlib numpy scikit-learn (colocar em uma célula dentro do vs code ou no cmd)
+- git add . 
+- git commit -m “mensagem”
+- git push --set-upstream origin develop (setar a branch local com a remota – ir pro github)
+- git checkout main
+- git merge develop
+- git push --set-upstream origin main
